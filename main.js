@@ -19,6 +19,37 @@ if (a > b) {
   console.log('Both are Equal');
 }
 
+// Switch Statement
+
+function getResult(a) {
+  let result;
+  switch (true) {
+    case a >= 80:
+      result = 'A+';
+      break;
+    case a >= 70:
+      result = 'A';
+      break;
+    case a >= 60:
+      result = 'A-';
+      break;
+    case a >= 50:
+      result = 'B';
+      break;
+    case a >= 40:
+      result = 'C';
+      break;
+    case a >= 33:
+      result = 'D';
+      break;
+    default:
+      result = 'F';
+  }
+  console.log('Your Grade is ', result);
+}
+console.log('=========Generate Grade Using Function and Switch=========');
+getResult(90);
+console.log('==========================================================');
 // For Loop
 let sum = 0;
 for (i = 0; i <= arrayData.length; i++) {
@@ -62,3 +93,4 @@ console.log(objData.name);
 console.log(objData.age);
 console.log(objData.district);
 console.log(objData.mobile);
+console.log('==========================================================');
