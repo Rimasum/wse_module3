@@ -46,7 +46,7 @@ console.log('Sum Using Do While Loop: ', sum3);
 
 // Function
 function calculator(a, b) {
-  console.log(a + b);
+  console.log('Sum Using Function: ', a + b);
 }
 calculator(10, 20);
 
@@ -57,6 +57,7 @@ const objData = {
   district: 'Narail',
   mobile: '01720446526',
 };
+console.log('=========Object OutPut=========');
 console.log(objData.name);
 console.log(objData.age);
 console.log(objData.district);
